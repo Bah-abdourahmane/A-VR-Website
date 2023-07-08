@@ -6,7 +6,11 @@ import { BsFillCircleFill } from "react-icons/bs";
 
 const Users = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-x-5 gap-y-2 lg:gap-y-0 lg:justify-start lg:flex-row">
+    <div
+      data-aos="fade-down"
+      data-aos-delay="300"
+      className="flex flex-col items-center justify-center gap-x-5 gap-y-2 lg:gap-y-0 lg:justify-start lg:flex-row"
+    >
       <div className="flex -space-x-2">
         <div className="w-12 h-12 rounded-full">
           <img src={Avatar1} alt="" />
